@@ -2,13 +2,28 @@
   "id": "coc7-armas-compendio",
   "title": "Call of Cthulhu 7e - Compêndio de Armas (Livro do Guardião)",
   "description": "Compêndio completo com todas as armas da Tabela XVII do Livro do Guardião separadas por pastas para o sistema CoC7.",
-  "version": "1.0.0",
-  "authors": [{ "name": "Gabrielsaopa" }],
-  "compatibility": { "minimum": "12", "verified": "14" },
-  "relationships": {
-    "systems": [{ "id": "CoC7", "type": "system", "compatibility": {} }]
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "Gabrielsaopa"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
   },
-  "esmodules": ["scripts/popular-armas.js"],
+  "relationships": {
+    "systems": [
+      {
+        "id": "CoC7",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/popular-armas.js"
+  ],
   "packs": [
     {
       "name": "armas",
@@ -16,10 +31,14 @@
       "path": "packs/armas",
       "type": "Item",
       "system": "CoC7",
-      "ownership": { "PLAYER": "OBSERVER", "TRUSTED": "OBSERVER", "ASSISTANT": "OWNER" }
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
-  "url": "https://github.com/Gabrielsaopa/Armas-CoC7",
+  "url": "https://github.com/Gabrielsaopa/coc7-armas-compendio",
   "manifest": "https://github.com/Gabrielsaopa/coc7-armas-compendio/raw/refs/heads/main/module.json",
   "download": "https://github.com/Gabrielsaopa/coc7-armas-compendio/archive/refs/heads/main.zip"
 }
